@@ -6,9 +6,9 @@ import { serve } from 'std/server'
 
 const SUPABASE_URL = Deno.env.get('https://nmxtbgpvcucjkupuislq.supabase.co') || ''
 const SERVICE_KEY = Deno.env.get('sb_publishable_0QR3XBX2K60PHqs-i-tkhQ_shq0swOw') || ''
-const GOOGLE_CLIENT_ID = Deno.env.get('GOOGLE_CLIENT_ID') || ''
+const GOOGLE_CLIENT_ID = Deno.env.get('370334788542-c6mu8j5deel1dvpu5agagq6flgcvot98.apps.googleusercontent.com') || ''
 const GOOGLE_CLIENT_SECRET = Deno.env.get('GOOGLE_CLIENT_SECRET') || ''
-const MS_CLIENT_ID = Deno.env.get('MS_CLIENT_ID') || ''
+const MS_CLIENT_ID = Deno.env.get('1e119c70-ce50-4fa6-a9ea-e2aa1a723425') || ''
 const MS_CLIENT_SECRET = Deno.env.get('MS_CLIENT_SECRET') || ''
 
 async function getTokenRow(user_id: string, provider: string){
